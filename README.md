@@ -1,2 +1,2 @@
-# GIAIC_HACKATHOUN1
+# GIAIC_HACKATHOUN
 giaic hackathoun1 project
