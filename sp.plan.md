@@ -1,0 +1,2 @@
+• Install Docusaurus with npm install @docusaurus/core @docusaurus/preset-classic @mdx-js/react clsx prism-react-renderer react react-dom, initialize site structure with proper configuration files (docusaurus.config.js, sidebars.js), create src/css/custom.css and basic docs/intro.md
+• Define Module 1 structure with 3 chapters: Chapter 1 on ROS 2 fundamentals (nodes, topics, services, message passing), Chapter 2 on AI agents with rclpy (Python-ROS2 integration, examples), Chapter 3 on humanoid modeling (URDF structure, humanoid models)

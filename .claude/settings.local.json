@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "SlashCommand(/sp.adr:*)",
+      "Bash(pwsh -File .specify/scripts/powershell/check-prerequisites.ps1 -Json)",
+      "Bash(npx create-docusaurus@latest frontend-book classic)",
+      "Bash(npx create-docusaurus@latest frontend-book classic --typescript false --force)",
+      "Bash(npx @docusaurus/init@latest frontend-book classic)",
+      "Bash(npm run build)",
+      "Bash(npm start)",
+      "Bash(git fetch --all --prune)",
+      "Bash(.specify/scripts/powershell/create-new-feature.ps1 -Json \"Module 2 Title: The Digital Twin (Gazebo & Unity)\n\nFocus:\n- Physics-based simulation and environment modeling\n- Digital twins for humanoid robots\n\nModule Topics:\n- Physics simulation (gravity, collisions) in Gazebo\n- High-fidelity visualization and interaction in Unity\n- Sensor simulation: LiDAR, depth cameras, IMUs\n\nDocusaurus Structure:\n- Exactly 3 chapters\n\nTarget Audience:\n- Students with ROS 2 fundamentals\n- New to physics simulation\" --number 2 --short-name \"digital-twin-sim\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
