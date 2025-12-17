@@ -1,0 +1,41 @@
+# Documentation API Contract: The AI-Robot Brain – NVIDIA Isaac™
+
+## Module Structure Contract
+
+### Module Endpoint: `/docs/modules/003-ai-robot-brain/`
+- **GET** `/` - Module overview page
+  - Response: Module index with learning objectives
+  - Content-Type: text/html (Docusaurus page)
+
+### Chapter 1 Endpoint: `/docs/modules/003-ai-robot-brain/chapter-1-isaac-sim/`
+- **GET** `/` - Chapter 1 overview
+  - Response: Isaac Sim fundamentals
+  - Content-Type: text/html (Docusaurus page)
+- **GET** `/synthetic-data` - Synthetic data generation
+  - Response: Synthetic data concepts and techniques
+  - Content-Type: text/html (Docusaurus page)
+- **GET** `/photorealistic-sim` - Photorealistic simulation
+  - Response: Simulation techniques and best practices
+  - Content-Type: text/html (Docusaurus page)
+
+### Chapter 2 Endpoint: `/docs/modules/003-ai-robot-brain/chapter-2-isaac-ros/`
+- **GET** `/` - Chapter 2 overview
+  - Response: Isaac ROS fundamentals
+  - Content-Type: text/html (Docusaurus page)
+- **GET** `/vslam` - Visual SLAM concepts
+  - Response: VSLAM implementation with Isaac ROS
+  - Content-Type: text/html (Docusaurus page)
+- **GET** `/hardware-acceleration` - Hardware acceleration
+  - Response: GPU acceleration techniques
+  - Content-Type: text/html (Docusaurus page)
+
+### Chapter 3 Endpoint: `/docs/modules/003-ai-robot-brain/chapter-3-nav2/`
+- **GET** `/` - Chapter 3 overview
+  - Response: Nav2 fundamentals for humanoid robots
+  - Content-Type: text/html (Docusaurus page)
+- **GET** `/navigation-concepts` - Navigation concepts
+  - Response: Path planning and execution concepts
+  - Content-Type: text/html (Docusaurus page)
+- **GET** `/humanoid-path-planning` - Humanoid path planning
+  - Response: Bipedal navigation techniques
+  - Content-Type: text/html (Docusaurus page)
