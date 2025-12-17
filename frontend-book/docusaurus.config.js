@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'Physical AI & Humanoid Robotics',
   tagline: 'AI/Spec-driven technical book on Physical AI & Humanoid Robotics',
-  url: 'https://giaic-hackathoun-ge0uf6310-hina-aamirs-projects.vercel.app/',
+  url: 'https://giaic-hackathoun.vercel.app/',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'throw',  // Change to 'warn' temporarily if needed for development
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'your-org', // Usually your GitHub org/user name.
