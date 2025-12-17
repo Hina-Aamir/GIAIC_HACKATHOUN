@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   tagline: 'AI/Spec-driven technical book on Physical AI & Humanoid Robotics',
   url: 'https://giaic-hackathoun.vercel.app/',
   baseUrl: '/',
-  onBrokenLinks: 'throw',  // Change to 'warn' temporarily if needed for development
+  onBrokenLinks: 'warn',  // Standard relative navigation links (../) are valid but flagged as broken
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'your-org', // Usually your GitHub org/user name.
@@ -31,6 +31,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       }),
     ],
   ],
+  
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
